@@ -1,6 +1,3 @@
-# To run: sudo docker run -v /path/to/host/data:/data arokem/dipy-life
-# ./life /data/in-file.trk /data/out-file.trk /data/dwi-file.nii.gz
-# /data/bvals_file.bval /data/bvec_file.bvec 
 FROM arokem/dipy
 MAINTAINER Ariel Rokem <arokem@gmail.com>
 RUN sudo apt-get install -y git
